@@ -16,7 +16,7 @@ public class CountingDuplicates {
                 .entrySet().stream().filter(m -> m.getValue() > 1).map(Map.Entry::getKey).toList().size();
     }
 
-    public static void main(String[] args) {
-        duplicateCount("abcde");
-    }
+   // public static void main(String[] args) {
+   //     duplicateCount("abcde");
+   // }
 }
